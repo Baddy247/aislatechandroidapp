@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/tool_bar_gallery"
+        layout="@layout/support_toolbar">
+    </include>
+
+
+    <ImageView
+        android:id="@+id/gallery_image"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="fitCenter"
+        android:background="#020202"></ImageView>
+    <TextView
+    android:id="@+id/detail_gallery_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="50dp"
+
+    android:padding="10dp"
+    android:text="Fanny Hands Lane, London"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+        android:autoText="false" />
+
+    <TextView
+    android:id="@+id/detail_gallery_description"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left|bottom"
+    android:layout_marginLeft="5dp"
+
+    android:padding="10dp"
+    android:text="26/Jan/2014"
+    android:textColor="#ffffff"
+    android:textSize="14sp" />
+
+    <android.support.design.widget.FloatingActionButton android:id="@+id/fab_download"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_margin="16dp"
+        android:src="@drawable/ic_action_download" />
+
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Titles">
+        <item>Home</item>
+        <item>Updates</item>
+        <item>Events</item>
+        <item>Gallery</item>
+        <item>FAQs</item>
+        <item>Contact Us</item>
+        <item>Alerts</item>
+        <item>Guide Book</item>
+    </array>
+</resources>

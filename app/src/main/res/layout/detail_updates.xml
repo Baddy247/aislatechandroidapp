@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_bar_updates"
+        layout="@layout/support_toolbar">
+    </include>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/detail_updates_title"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/detail_updates_description" />
+    </ScrollView>
+
+</LinearLayout>

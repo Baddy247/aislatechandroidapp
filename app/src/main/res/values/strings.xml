@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AISLATECH</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="home_description">
+<![CDATA[
+<html>
+ <head></head>
+ <body style="text-align:justify;color:black;">
+The Association of Indian Students (AIS) has been existing on the
+        campus since 1993. However, the Association was reinstated to its current form on October 02, 2000,
+        with an intent to bring back the spirit of Indian-ness to the Tech campus, and has been doing consistently well ever since.
+        AIS has been actively engaged in making Indian students at Louisiana Tech University feel "at home". </br> </br>The involvement of
+        AIS with Indian students starts with guiding new applicants with necessary information pertaining to the University,
+        informing prospective students about the academic programs and research at the University, guiding students through
+        the visa procedures, and extends to picking up students from the nearby Monroe Regional Airport, accommodating them
+        temporarily at current students apartments while guiding them in finding accommodation for themselves, apart from
+        conducting various events on the campus, sometimes in conjunction with the International Student Office (ISO),
+        International Student Association (ISA), and the India Association of North Louisiana (IANL). Through all these,
+        the Association of Indian Students works hand in hand with the ISO, while also helping the Office through orientation
+        for Indian students on the campus.
+ </body>
+</html>
+]]>
+        </string>
+    <string name="transition_name_name">transition:NAME</string>
+    <string name="transition_name_circle">transition:CIRCLE</string>
+    <string name="transition_name_phone">transition:PHONE</string>
+
+</resources>
