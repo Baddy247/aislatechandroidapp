@@ -32,6 +32,7 @@ public class AdapterUpdates extends ArrayAdapter < ModelUpdates > {
         this.mTasks = objects;
     }
 
+    //test
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
             LayoutInflater mLayoutInflater = LayoutInflater.from(mContext);
