@@ -1,7 +1,7 @@
 package com.eba.aislatech;
 
 import android.app.ActivityOptions;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
