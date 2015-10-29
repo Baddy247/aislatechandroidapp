@@ -1,11 +1,17 @@
 package com.eba.aislatech;
 
+<<<<<<< HEAD
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+=======
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+>>>>>>> refs/remotes/ebahub/master
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
