@@ -31,5 +31,6 @@ dependencies {
     compile "com.daimajia.swipelayout:library:1.2.0@aar"
     compile 'com.android.support:design:22.+'
     compile 'com.koushikdutta.ion:ion:2.+'
+    compile 'com.roomorama:caldroid:2.2.1'
 
 }
