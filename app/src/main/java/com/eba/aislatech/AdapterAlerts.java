@@ -43,7 +43,6 @@ public class AdapterAlerts extends RecyclerView.Adapter < AdapterAlerts.DataObje
     public void onBindViewHolder(DataObjectHolder holder, int position) {
         holder.alertsTitle.setText(mDataset.get(position).getTitle());
         holder.alertsDescription.setText(mDataset.get(position).getDescription());
-        holder.alertsTimeStamp.setText(mDataset.get(position).getTime());
 
     }
 
@@ -75,13 +74,11 @@ public class AdapterAlerts extends RecyclerView.Adapter < AdapterAlerts.DataObje
         //Get Alerts Title and Description from the view
         TextView alertsTitle;
         TextView alertsDescription;
-        TextView alertsTimeStamp;
 
         public DataObjectHolder(View itemView) {
             super(itemView);
             alertsTitle = (TextView) itemView.findViewById(R.id.alerts_title);
             alertsDescription = (TextView) itemView.findViewById(R.id.alerts_description);
-            alertsTimeStamp = (TextView) itemView.findViewById(R.id.alerts_timestamp);
 
             itemView.setOnClickListener(this);
         }

@@ -40,7 +40,6 @@ public class AdapterUpdates extends ArrayAdapter < ModelUpdates > {
         }
         ModelUpdates task = mTasks.get(position);
 
-        //test2
         //Set image for list item
         ColorGenerator generator = ColorGenerator.MATERIAL;
         int color1 = generator.getRandomColor();

@@ -19,11 +19,6 @@ public class ModelAlerts extends ParseObject {
     public ModelAlerts() {
     }
 
-	 public String getTime() {
-        SimpleDateFormat df = new SimpleDateFormat("dd MMM yyyy HH:mm");
-        String ts = df.format(getCreatedAt());
-        return ts;
-    }
     public String getTitle() {
         return getString("Name");
     }
