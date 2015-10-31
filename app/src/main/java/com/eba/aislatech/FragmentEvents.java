@@ -1,24 +1,13 @@
 package com.eba.aislatech;
 
-<<<<<<< HEAD
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-=======
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
->>>>>>> refs/remotes/ebahub/master
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.parse.FindCallback;
 import com.parse.ParseException;
@@ -41,7 +30,6 @@ public class FragmentEvents extends Fragment {
     private RecyclerView.LayoutManager mLayoutManager;
     private static String LOG_TAG = "CardViewActivity";
 
-
     public FragmentEvents() {}
 
     @Override
@@ -49,7 +37,6 @@ public class FragmentEvents extends Fragment {
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_event, container, false);
-        final TextView text2 = (TextView)rootView.findViewById(R.id.tab2);
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.my_recycler_view);
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(getActivity());
@@ -76,20 +63,8 @@ public class FragmentEvents extends Fragment {
         mRecyclerView.setAdapter(mAdapter);
 
 
-
-        text2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                text2.setBackgroundColor(getResources().getColor(R.color.ColorPrimaryDark));
-                //text2.setTextColor(getResources().getColor(R.color.ColorPrimaryDark));
-                Intent intent = new Intent(getActivity(), CalendarEventActivity.class);
-                startActivity(intent);
-                text2.setBackgroundColor(getResources().getColor(R.color.background_material_light));
-            }
-        });
-
         return rootView;
     }
 
 
-    }
+}
